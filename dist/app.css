@@ -89,6 +89,11 @@ header {
   display: inline-block;
 }
 
+.header-bottom ul a:hover {
+  background-color: #f1f1f1;
+  color: #101010;
+}
+
 .header-bottom ul a i {
   font-size: 10px;
   color: #989898;
@@ -101,5 +106,84 @@ header {
 
 .logo-container img {
   width: 100%;
+}
+
+.footer-top {
+  background-color: #e6e6e6;
+}
+
+.footer-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+
+.footer-top-container h4 {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.footer-top-container ul {
+  margin-top: 10px;
+}
+
+.footer-top-container ul a {
+  display: block;
+  color: #515151;
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.footer-box {
+  width: 25%;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.icons-container div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  margin: 0 3px;
+}
+
+.icons-container div i {
+  color: #fff;
+  font-size: 25px;
+}
+
+.icons-container .icon-container-insta {
+  background-color: #e4405f;
+}
+
+.icons-container .icon-container-faceb {
+  background-color: #3b5998;
+}
+
+.icons-container .icon-container-tweet {
+  background-color: #1da1f2;
+}
+
+.icons-container .icon-container-yout {
+  background-color: #cd201f;
+}
+
+.icons-container .icon-container-pinte {
+  background-color: #bd081c;
+}
+
+.icons-container .icon-container-rss {
+  background-color: #ff8d00;
 }
 

@@ -1,0 +1,60 @@
+.footer-top {
+    background-color: $first-windows-background;
+}
+
+.footer-top-container {
+    @include displayFlex (row, space-between, flex-start);
+    padding: $main-space * 2 0;
+    h4 {
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    ul {
+        margin-top: $main-space / 2;
+
+        a {
+            display: block;
+            color: $secondary-text-color;
+            font-size: $main-font-size / 3;
+            padding: $main-space / 4 0;
+        }
+    }
+}
+
+.footer-box {
+    width: 25%;
+}
+
+.icons-container {
+    @include displayFlex (row, flex-start, center);
+    margin-top: $main-space / 2;
+    div {
+        @include displayFlex (row, center, center);
+        height: 35px;
+        width: 35px;
+        margin: 0 3px;
+        i {
+            color: $main-text-color;
+            font-size: 25px;
+        }
+    }
+    .icon-container-insta {
+        background-color: #e4405f;
+    }
+    .icon-container-faceb {
+        background-color: #3b5998;
+    }
+    .icon-container-tweet {
+        background-color: #1da1f2;
+    }
+    .icon-container-yout {
+        background-color: #cd201f;
+    }
+    .icon-container-pinte {
+        background-color: #bd081c;
+    }
+    .icon-container-rss {
+        background-color: #ff8d00;
+    }
+}

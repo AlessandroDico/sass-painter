@@ -11,6 +11,11 @@
             font-size: $secondary-font-size;
             display: inline-block;
 
+            &:hover{
+                background-color: #f1f1f1;
+                color: $main-color;
+            }
+
             i {
                 font-size: 10px;
                 color: #989898;
