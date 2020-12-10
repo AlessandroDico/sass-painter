@@ -34,7 +34,7 @@ h1 {
 }
 
 header {
-  padding: 13.3333333333px 0;
+  padding-top: 13.3333333333px;
   background-color: #101010;
 }
 
@@ -52,6 +52,11 @@ header {
   font-size: 12px;
 }
 
+.header-top li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .header-top li a i {
   color: #009cff;
   margin-right: 10px;
@@ -60,5 +65,41 @@ header {
 .header-top select {
   font-size: 12px;
   margin-left: 10px;
+}
+
+.header-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header-bottom ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-bottom ul a {
+  padding: 20px 25px;
+  color: #fff;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.header-bottom ul a i {
+  font-size: 10px;
+  color: #989898;
+}
+
+.logo-container {
+  width: 90px;
+  margin-right: 10px;
+}
+
+.logo-container img {
+  width: 100%;
 }
 
