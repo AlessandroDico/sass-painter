@@ -1,8 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
 h1 {
   color: #009cff;
+}
+
+.contacts-container {
+  display: inline-block;
+}
+
+header {
+  padding: 13.3333333333px 0;
+  background-color: #101010;
+}
+
+.header-top {
+  text-align: right;
+}
+
+.header-top li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header-top li a {
+  color: #989898;
+  font-size: 12px;
+}
+
+.header-top li a i {
+  color: #009cff;
+  margin-right: 10px;
+}
+
+.header-top select {
+  font-size: 12px;
+  margin-left: 10px;
 }
 
