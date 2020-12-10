@@ -18,18 +18,9 @@ header {
         display: inline-block;
         margin: 0 $main-space / 2;
 
-        a {
-            color: #989898;
-            font-size: $main-font-size / 3;
-            &:hover {
-                color: $main-text-color;
-                text-decoration: underline;
-            }
-
-            i {
-                color: $secondary-color;
-                margin-right: $main-space / 2;
-            }
+        i {
+            color: $secondary-color;
+            margin-right: $main-space / 2;
         }
 
     }

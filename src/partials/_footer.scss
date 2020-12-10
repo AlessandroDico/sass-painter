@@ -4,7 +4,7 @@
 
 .footer-top-container {
     @include displayFlex (row, space-between, flex-start);
-    padding: $main-space * 2 0;
+    padding: $main-space * 3 0;
     h4 {
         font-size: 15px;
         font-weight: 100;
@@ -22,13 +22,15 @@
     }
 }
 
+
 .footer-box {
     width: 25%;
+    //data per avere gli ul che partono più a sinistra
 }
 
 .icons-container {
     @include displayFlex (row, flex-start, center);
-    margin-top: $main-space / 2;
+    margin-top: $main-space;
     div {
         @include displayFlex (row, center, center);
         height: 35px;
@@ -56,5 +58,36 @@
     }
     .icon-container-rss {
         background-color: #ff8d00;
+    }
+}
+
+//footer footer-bottom
+.footer-bottom {
+    background-color: $second-windows-background;
+    padding: $main-space 0;
+    .footer-bottom-container {
+        @include displayFlex (row, space-between, center);
+
+        .imges-container {
+            @include displayFlex (row, center, center);
+
+            div {
+                margin: 0 $main-space / 2;
+            }
+        }
+
+        .footer-links {
+            display: inline-block;
+            a {
+                padding: $main-space / 4;
+                margin: 0 $main-space / 2;
+            }
+        }
+
+        .footer-copyright {
+            display: inline-block;
+            color: $main-text-color;
+            font-size: $main-font-size / 3;
+        }
     }
 }
