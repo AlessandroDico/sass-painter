@@ -389,6 +389,12 @@ section.video-advertising .video-advertising-img .frame-img {
   margin: auto;
   position: relative;
 }
+section.video-advertising .video-advertising-img .frame-img a {
+  display: block;
+}
+section.video-advertising .video-advertising-img .frame-img a:hover i.fa-play-circle {
+  color: #cccccc;
+}
 section.video-advertising .video-advertising-img img.main-frame-img {
   width: 100%;
   display: block;
@@ -412,9 +418,6 @@ section.video-advertising .video-advertising-img i.fa-play-circle {
   color: #fff;
   cursor: pointer;
   z-index: 3;
-}
-section.video-advertising .video-advertising-img i.fa-play-circle:hover {
-  color: #f2f2f2;
 }
 
 .video-advertising-container {
