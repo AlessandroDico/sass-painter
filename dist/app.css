@@ -497,3 +497,12 @@ section.video-advertising .video-advertising-img i.fa-play-circle:hover {
 .artificial-intelligence-container .carousel-images img {
   width: 100%;
 }
+
+.empty-section {
+  height: 650px;
+  background-image: url("../dist/images/image-bg-02.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

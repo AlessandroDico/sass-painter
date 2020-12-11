@@ -146,7 +146,16 @@ section.video-advertising {
 
 }
 
+// inizio empty section
 
+.empty-section {
+    height: 650px;
+    background-image: url('../dist/images/image-bg-02.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
