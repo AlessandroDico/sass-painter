@@ -1,12 +1,14 @@
 section.jumbotron {
     background-color: #1c4c58;
+    background-image: url('../dist/images/jumbotron-img.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 .jumbotron-container {
     @include displayFlex(row, flex-end, center);
     .jumbotron-left {
         color: $main-text-color;
-        padding: $main-space * 2 0;
 
         h1 {
             font-size: 30px;
@@ -52,13 +54,67 @@ section.jumbotron {
                 }
             }
 
-            .jumbo-button-right {
+            .jumbo-button-left-right-side {
                 display: inline-block;
                 padding: 0 $main-space / 2;
 
                 i {
                     font-size: $secondary-font-size * 2;
                 }
+            }
+        }
+    }
+
+    .jumbotron-right {
+        //non uso main color in quanto questo è un rgba e cambia il "significato" anche se la trasparenza è praticamente nulla
+        background-color: rgba(0, 0, 0, 0.9);
+        position: relative;
+        padding: $main-space * 2 $main-space 0 $main-space;
+        margin-top: $main-space;
+        margin-left: $main-space * 2;
+        align-self: flex-end;
+
+        .moneyback-container {
+            position: absolute;
+            top: $main-space;
+            right: $main-space;
+        }
+
+        .jumbo-price {
+
+            & span:first-child {
+                color: $main-text-color;
+                display: block;
+                padding-bottom: $main-space / 4;
+                font-size: 26px;
+            }
+            & span:last-child {
+                color: $secondary-text-color;
+                display: block;
+            }
+        }
+
+        .jumbo-button-right {
+            font-size: $secondary-font-size;
+            background-color: $secondary-color;
+            color: $main-text-color;
+            padding: $main-space / 2 $main-space * 2;
+            margin-top: $main-space;
+        }
+
+        .time-offer {
+            background-color: $first-windows-background;
+            margin-top: $main-space * 2;
+            margin-bottom: $main-space * 8;
+            padding: $main-space / 2;
+
+            p {
+                font-size: $secondary-font-size;
+                margin: $main-space / 2.5 0;
+            }
+            a {
+                color: $secondary-color;
+                font-size: $secondary-font-size;
             }
         }
     }

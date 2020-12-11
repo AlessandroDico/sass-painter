@@ -229,6 +229,9 @@ header {
 
 section.jumbotron {
   background-color: #1c4c58;
+  background-image: url("../dist/images/jumbotron-img.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .jumbotron-container {
@@ -239,7 +242,6 @@ section.jumbotron {
 }
 .jumbotron-container .jumbotron-left {
   color: #fff;
-  padding: 40px 0;
 }
 .jumbotron-container .jumbotron-left h1 {
   font-size: 30px;
@@ -277,10 +279,54 @@ section.jumbotron {
   padding-bottom: 3px;
   font-weight: bold;
 }
-.jumbotron-container .jumbotron-left button.jumbo-button .jumbo-button-right {
+.jumbotron-container .jumbotron-left button.jumbo-button .jumbo-button-left-right-side {
   display: inline-block;
   padding: 0 10px;
 }
-.jumbotron-container .jumbotron-left button.jumbo-button .jumbo-button-right i {
+.jumbotron-container .jumbotron-left button.jumbo-button .jumbo-button-left-right-side i {
   font-size: 28px;
+}
+.jumbotron-container .jumbotron-right {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: relative;
+  padding: 40px 20px 0 20px;
+  margin-top: 20px;
+  margin-left: 40px;
+  align-self: flex-end;
+}
+.jumbotron-container .jumbotron-right .moneyback-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.jumbotron-container .jumbotron-right .jumbo-price span:first-child {
+  color: #fff;
+  display: block;
+  padding-bottom: 5px;
+  font-size: 26px;
+}
+.jumbotron-container .jumbotron-right .jumbo-price span:last-child {
+  color: #515151;
+  display: block;
+}
+.jumbotron-container .jumbotron-right .jumbo-button-right {
+  font-size: 14px;
+  background-color: #009cff;
+  color: #fff;
+  padding: 10px 40px;
+  margin-top: 20px;
+}
+.jumbotron-container .jumbotron-right .time-offer {
+  background-color: #e6e6e6;
+  margin-top: 40px;
+  margin-bottom: 160px;
+  padding: 10px;
+}
+.jumbotron-container .jumbotron-right .time-offer p {
+  font-size: 14px;
+  margin: 8px 0;
+}
+.jumbotron-container .jumbotron-right .time-offer a {
+  color: #009cff;
+  font-size: 14px;
 }
