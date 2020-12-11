@@ -2,10 +2,19 @@
     @include displayFlex(row, flex-start, center);
     padding-top: $main-space;
 
+    .logo-container {
+        width: 90px;
+        margin-right: $main-space / 2;
+
+        img {
+            width: 100%;
+        }
+    }
+
     ul {
         @include displayFlex(row, flex-start, center);
 
-        a {
+        a.a-first-layer{
             padding: $main-space 25px;
             color: $main-text-color;
             font-size: $secondary-font-size;
@@ -24,11 +33,33 @@
     }
 }
 
-.logo-container {
-    width: 90px;
-    margin-right: $main-space / 2;
+//menu nascosto
+.header-bottom {
+    li {
+        position: relative;
+        & > ul.dropdown-ul {
+            display: none;
+            position: absolute;
+            top: 57px;
+            background-color: #f1f1f1;
+            width: 200%;
 
-    img {
-        width: 100%;
+            a {
+                color: $secondary-text-color;
+                font-size: $secondary-font-size;
+                display: inline-block;
+                padding: $main-space / 1.5;
+                width: 100%;
+
+                &:hover {
+                    background-color: $first-windows-background;
+                }
+            }
+        }
+
+        &:hover .dropdown-ul {
+            display: block;
+        }
+
     }
 }

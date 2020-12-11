@@ -29,7 +29,6 @@ a.prehead-footer {
   color: #989898;
   font-size: 12px;
 }
-
 a.prehead-footer:hover {
   color: #fff;
   text-decoration: underline;
@@ -51,17 +50,14 @@ header {
 .header-top {
   text-align: right;
 }
-
 .header-top li {
   display: inline-block;
   margin: 0 10px;
 }
-
 .header-top li i {
   color: #009cff;
   margin-right: 10px;
 }
-
 .header-top select {
   font-size: 12px;
   margin-left: 10px;
@@ -74,38 +70,56 @@ header {
   align-items: center;
   padding-top: 20px;
 }
-
+.header-bottom .logo-container {
+  width: 90px;
+  margin-right: 10px;
+}
+.header-bottom .logo-container img {
+  width: 100%;
+}
 .header-bottom ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
-
-.header-bottom ul a {
+.header-bottom ul a.a-first-layer {
   padding: 20px 25px;
   color: #fff;
   font-size: 14px;
   display: inline-block;
 }
-
-.header-bottom ul a:hover {
+.header-bottom ul a.a-first-layer:hover {
   background-color: #f1f1f1;
   color: #101010;
 }
-
-.header-bottom ul a i {
+.header-bottom ul a.a-first-layer i {
   font-size: 10px;
   color: #989898;
 }
 
-.logo-container {
-  width: 90px;
-  margin-right: 10px;
+.header-bottom li {
+  position: relative;
 }
-
-.logo-container img {
+.header-bottom li > ul.dropdown-ul {
+  display: none;
+  position: absolute;
+  top: 57px;
+  background-color: #f1f1f1;
+  width: 200%;
+}
+.header-bottom li > ul.dropdown-ul a {
+  color: #515151;
+  font-size: 14px;
+  display: inline-block;
+  padding: 13.3333333333px;
   width: 100%;
+}
+.header-bottom li > ul.dropdown-ul a:hover {
+  background-color: #e6e6e6;
+}
+.header-bottom li:hover .dropdown-ul {
+  display: block;
 }
 
 .footer-top {
@@ -119,16 +133,13 @@ header {
   align-items: flex-start;
   padding: 60px 0;
 }
-
 .footer-top-container h4 {
   font-size: 15px;
   font-weight: 100;
 }
-
 .footer-top-container ul {
   margin-top: 10px;
 }
-
 .footer-top-container ul a {
   display: block;
   color: #515151;
@@ -147,7 +158,6 @@ header {
   align-items: center;
   margin-top: 20px;
 }
-
 .icons-container div {
   display: flex;
   flex-direction: row;
@@ -157,32 +167,25 @@ header {
   width: 35px;
   margin: 0 3px;
 }
-
 .icons-container div i {
   color: #fff;
   font-size: 25px;
 }
-
 .icons-container .icon-container-insta {
   background-color: #e4405f;
 }
-
 .icons-container .icon-container-faceb {
   background-color: #3b5998;
 }
-
 .icons-container .icon-container-tweet {
   background-color: #1da1f2;
 }
-
 .icons-container .icon-container-yout {
   background-color: #cd201f;
 }
-
 .icons-container .icon-container-pinte {
   background-color: #bd081c;
 }
-
 .icons-container .icon-container-rss {
   background-color: #ff8d00;
 }
@@ -191,37 +194,30 @@ header {
   background-color: #222222;
   padding: 20px 0;
 }
-
 .footer-bottom .footer-bottom-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-
 .footer-bottom .footer-bottom-container .imges-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
 .footer-bottom .footer-bottom-container .imges-container div {
   margin: 0 10px;
 }
-
 .footer-bottom .footer-bottom-container .footer-links {
   display: inline-block;
 }
-
 .footer-bottom .footer-bottom-container .footer-links a {
   padding: 5px;
   margin: 0 10px;
 }
-
 .footer-bottom .footer-bottom-container .footer-copyright {
   display: inline-block;
   color: #fff;
   font-size: 12px;
 }
-
