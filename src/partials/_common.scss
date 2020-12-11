@@ -17,6 +17,11 @@ a {
     text-decoration: none;
 }
 
+button {
+    outline: none;
+    border: none;
+}
+
 .container {
     max-width: 1170px;
     margin: auto;
@@ -24,6 +29,10 @@ a {
 
 .text-center {
     text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
 }
 
 a.prehead-footer {
