@@ -160,22 +160,22 @@ section.video-advertising {
 //inizio sezione flexible photo
 section.flexible-photo {
     background-color: $second-windows-background;
+    color: $main-text-color;
 }
 
 .flexible-photo-container {
     padding: $main-space * 4 0;
 
+    p {
+        margin: $main-space 0;
+        font-size: $main-font-size / 2;
+        line-height: 1.5;
+        letter-spacing: 0.8px;
+    }
+
     .flexible-photo-paragraph {
         width: 80%;
         margin: auto;
-        color: $main-text-color;
-
-        p {
-            margin: $main-space 0;
-            font-size: $main-font-size / 2;
-            line-height: 1.5;
-            letter-spacing: 0.8px;
-        }
 
     }
 }
@@ -183,13 +183,29 @@ section.flexible-photo {
 .flexible-photo-main-image {
     width: 70%;
     margin: auto;
-    margin-top: $main-space * 2;
+    margin-top: $main-space * 4;
 
     img {
         width: 100%;
     }
 }
 
+.flexible-photo-center {
+    @include displayFlex(row, center,center);
+    padding: $main-space * 6 $main-space;
+
+    .flexible-photo-center-left {
+        width: 40%;
+        padding-right: $main-space * 3;
+    }
+    .flexible-photo-center-right {
+        width: 60%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
 
 
 

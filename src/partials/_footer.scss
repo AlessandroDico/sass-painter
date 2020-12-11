@@ -5,7 +5,7 @@
 .footer-top-container {
     @include displayFlex (row, space-between, flex-start);
     padding: $main-space * 3 0;
-    h4 {
+    h5 {
         font-size: 15px;
         font-weight: 100;
     }

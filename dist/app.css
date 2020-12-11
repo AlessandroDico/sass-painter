@@ -25,6 +25,11 @@ h2 {
   font-size: 36px;
 }
 
+h4 {
+  font-size: 24px;
+  letter-spacing: 0.8px;
+}
+
 .container {
   max-width: 1170px;
   margin: auto;
@@ -143,7 +148,7 @@ header {
   align-items: flex-start;
   padding: 60px 0;
 }
-.footer-top-container h4 {
+.footer-top-container h5 {
   font-size: 15px;
   font-weight: 100;
 }
@@ -509,28 +514,46 @@ section.video-advertising .video-advertising-img i.fa-play-circle:hover {
 
 section.flexible-photo {
   background-color: #222222;
+  color: #fff;
 }
 
 .flexible-photo-container {
   padding: 80px 0;
 }
-.flexible-photo-container .flexible-photo-paragraph {
-  width: 80%;
-  margin: auto;
-  color: #fff;
-}
-.flexible-photo-container .flexible-photo-paragraph p {
+.flexible-photo-container p {
   margin: 20px 0;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.8px;
 }
+.flexible-photo-container .flexible-photo-paragraph {
+  width: 80%;
+  margin: auto;
+}
 
 .flexible-photo-main-image {
   width: 70%;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 .flexible-photo-main-image img {
+  width: 100%;
+}
+
+.flexible-photo-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 20px;
+}
+.flexible-photo-center .flexible-photo-center-left {
+  width: 40%;
+  padding-right: 60px;
+}
+.flexible-photo-center .flexible-photo-center-right {
+  width: 60%;
+}
+.flexible-photo-center .flexible-photo-center-right img {
   width: 100%;
 }
