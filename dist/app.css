@@ -576,3 +576,12 @@ section.flexible-photo {
   width: 40%;
   padding-left: 60px;
 }
+
+.second-empty-section {
+  height: 650px;
+  background-image: url("../dist/images/image-bg-01.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
