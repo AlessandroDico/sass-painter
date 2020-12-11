@@ -622,3 +622,43 @@ section.flexible-photo {
   color: #fff;
   font-size: 20px;
 }
+
+section.explore-portal {
+  background-image: url("../dist/images/brushpacks-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.explore-portal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.explore-portal-left,
+.explore-portal-right {
+  width: 40%;
+  color: #515151;
+  background-color: #fff;
+  padding: 60px 40px;
+  margin: 0 10px;
+  align-self: stretch;
+}
+.explore-portal-left p,
+.explore-portal-right p {
+  font-size: 18px;
+  margin: 20px 0;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+.explore-portal-left a,
+.explore-portal-right a {
+  color: #009cff;
+}
+.explore-portal-left a:hover,
+.explore-portal-right a:hover {
+  text-decoration: underline;
+}
