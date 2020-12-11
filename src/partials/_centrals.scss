@@ -60,7 +60,6 @@ section.video-advertising {
 
     h2 {
         color: $main-text-color;
-        font-size: $main-font-size;
     }
 
     p {
@@ -95,3 +94,74 @@ section.video-advertising {
         }
     }
 }
+
+//sezione Artificial Intelligene
+
+.artificial-intelligence-container {
+    padding: $main-space * 3 0 $main-space 0;
+
+    .artificial-intelligence-paragaph {
+        width: 80%;
+        margin: auto;
+        color: $secondary-text-color;
+
+        p {
+            margin: $main-space 0;
+            font-size: $main-font-size / 2;
+            line-height: 1.5;
+            letter-spacing: 0.8px;
+        }
+    }
+
+    .carousel-images {
+        width: 80%;
+        margin: auto;
+        margin-top: $main-space * 2;
+        position: relative;
+
+        i {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: $main-font-size;
+            color: #e74500;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+
+        i.fa-chevron-circle-left {
+            left: -$main-space * 2.5;
+        }
+        i.fa-chevron-circle-right {
+            right: -$main-space * 2.5;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

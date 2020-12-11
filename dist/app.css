@@ -21,6 +21,10 @@ button {
   border: none;
 }
 
+h2 {
+  font-size: 36px;
+}
+
 .container {
   max-width: 1170px;
   margin: auto;
@@ -419,7 +423,6 @@ section.video-advertising .video-advertising-img i.fa-play-circle:hover {
 }
 .video-advertising-paragraph h2 {
   color: #fff;
-  font-size: 36px;
 }
 .video-advertising-paragraph p {
   font-size: 18px;
@@ -452,4 +455,45 @@ section.video-advertising .video-advertising-img i.fa-play-circle:hover {
 .video-advertising-paragraph .pdf-write:last-child {
   font-size: 18px;
   cursor: pointer;
+}
+
+.artificial-intelligence-container {
+  padding: 60px 0 20px 0;
+}
+.artificial-intelligence-container .artificial-intelligence-paragaph {
+  width: 80%;
+  margin: auto;
+  color: #515151;
+}
+.artificial-intelligence-container .artificial-intelligence-paragaph p {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+.artificial-intelligence-container .carousel-images {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  position: relative;
+}
+.artificial-intelligence-container .carousel-images i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 36px;
+  color: #e74500;
+  cursor: pointer;
+}
+.artificial-intelligence-container .carousel-images i:hover {
+  opacity: 0.5;
+}
+.artificial-intelligence-container .carousel-images i.fa-chevron-circle-left {
+  left: -50px;
+}
+.artificial-intelligence-container .carousel-images i.fa-chevron-circle-right {
+  right: -50px;
+}
+.artificial-intelligence-container .carousel-images img {
+  width: 100%;
 }
