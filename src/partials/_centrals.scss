@@ -157,10 +157,38 @@ section.video-advertising {
     background-size: cover;
 }
 
+//inizio sezione flexible photo
+section.flexible-photo {
+    background-color: $second-windows-background;
+}
 
+.flexible-photo-container {
+    padding: $main-space * 4 0;
 
+    .flexible-photo-paragraph {
+        width: 80%;
+        margin: auto;
+        color: $main-text-color;
 
+        p {
+            margin: $main-space 0;
+            font-size: $main-font-size / 2;
+            line-height: 1.5;
+            letter-spacing: 0.8px;
+        }
 
+    }
+}
+
+.flexible-photo-main-image {
+    width: 70%;
+    margin: auto;
+    margin-top: $main-space * 2;
+
+    img {
+        width: 100%;
+    }
+}
 
 
 
