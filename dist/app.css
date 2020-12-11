@@ -161,6 +161,9 @@ header {
   font-size: 12px;
   padding: 5px 0;
 }
+.footer-top-container ul a:hover {
+  text-decoration: underline;
+}
 
 .footer-box {
   width: 25%;
@@ -353,6 +356,10 @@ section.jumbotron {
 
 .second-navbar {
   background-color: #e6e6e6;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 4;
 }
 .second-navbar .second-navbar-ul {
   display: flex;

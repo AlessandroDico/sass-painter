@@ -18,6 +18,10 @@
             color: $secondary-text-color;
             font-size: $main-font-size / 3;
             padding: $main-space / 4 0;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
