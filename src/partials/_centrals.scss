@@ -241,6 +241,52 @@ section.flexible-photo {
     background-size: cover;
 }
 
+//inizio sezione Tools and effects
+
+// .tools-effects-title
+.tools-effects-container {
+    padding: $main-space * 5 0;
+}
+
+.tools-effects-images-container {
+    @include displayFlex(row, center, center);
+    padding-top: $main-space * 3;
+    .tools-effects-img-box {
+        width: 25%;
+        margin: 0 15px;
+        position: relative;
+        overflow: hidden;
+
+        &:hover img {
+            transform: scale(1.1);
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            transition: 0.6s ease-out;
+        }
+
+        span {
+            position: absolute;
+            bottom: $main-space;
+            left: 50%;
+            transform: translateX(-50%);
+            color: $main-text-color;
+            font-size: 20px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
