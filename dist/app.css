@@ -112,6 +112,7 @@ header {
   top: 57px;
   background-color: #f1f1f1;
   width: 200%;
+  z-index: 2;
 }
 .header-bottom li > ul.dropdown-ul a {
   color: #515151;
@@ -265,6 +266,11 @@ section.jumbotron {
   background-color: #666;
   color: #fff;
   padding: 10px 0;
+  cursor: pointer;
+}
+.jumbotron-container .jumbotron-left button.jumbo-button:hover {
+  background-color: #595959;
+  color: #f2f2f2;
 }
 .jumbotron-container .jumbotron-left button.jumbo-button .jumbo-button-left {
   display: inline-block;
@@ -316,6 +322,10 @@ section.jumbotron {
   color: #fff;
   padding: 10px 40px;
   margin-top: 20px;
+  cursor: pointer;
+}
+.jumbotron-container .jumbotron-right .jumbo-button-right:hover {
+  background-color: #24aaff;
 }
 .jumbotron-container .jumbotron-right .time-offer {
   background-color: #e6e6e6;
@@ -330,4 +340,29 @@ section.jumbotron {
 .jumbotron-container .jumbotron-right .time-offer a {
   color: #009cff;
   font-size: 14px;
+}
+
+.second-navbar {
+  background-color: #e6e6e6;
+}
+.second-navbar .second-navbar-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.second-navbar .second-navbar-ul a {
+  display: block;
+  padding: 20px;
+  color: #515151;
+  font-size: 18px;
+}
+.second-navbar .second-navbar-ul a:hover {
+  background-color: #eeeeee;
+}
+.second-navbar .second-navbar-ul a.active {
+  background-color: #f3f3f3;
+  color: #101010;
+  border-bottom: 2px solid #101010;
+  font-weight: bold;
 }

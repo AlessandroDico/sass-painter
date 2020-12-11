@@ -1,0 +1,26 @@
+.second-navbar {
+    background-color: $first-windows-background;
+
+    .second-navbar-ul {
+        @include displayFlex(row, flex-start, center);
+
+        a {
+            display: block;
+            padding: $main-space;
+            color: $secondary-text-color;
+            font-size: $main-font-size / 2;
+
+            &:hover {
+                background-color: lighten($first-windows-background, 3%);
+            }
+
+            &.active {
+                background-color: lighten($first-windows-background, 5%);
+                color: $main-color;
+                border-bottom: 2px solid $main-color;
+                font-weight: bold;
+            }
+        }
+    }
+
+}

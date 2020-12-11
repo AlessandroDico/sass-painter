@@ -37,6 +37,12 @@ section.jumbotron {
             background-color: #666;
             color: $main-text-color;
             padding: $main-space / 2 0;
+            cursor: pointer;
+
+            &:hover {
+                background-color: darken(#666, 5%);
+                color: darken($main-text-color, 5%);
+            }
 
             .jumbo-button-left {
                 display: inline-block;
@@ -101,6 +107,11 @@ section.jumbotron {
             color: $main-text-color;
             padding: $main-space / 2 $main-space * 2;
             margin-top: $main-space;
+            cursor: pointer;
+
+            &:hover {
+                background-color: lighten($secondary-color, 7%);
+            }
         }
 
         .time-offer {
